@@ -30,12 +30,12 @@ public class ChkOutYourInfoPage {
 	@FindBy(xpath = "//input[@id='continue']")
 	public WebElement Continue;
 	
-	public void Checkoutinfo(Map<String,String> customerDetails) {
+	public void Checkoutinfo(Map<String,String> customerDetails) throws InterruptedException {
 		
 		Firstname.sendKeys(customerDetails.get("Firstname"));
 		Lastname.sendKeys(customerDetails.get("Lastname"));
 		Postalcode.sendKeys(customerDetails.get("Postalcode"));
-		
+		Thread.sleep(1000);
 		Continue.click();
 	}
 

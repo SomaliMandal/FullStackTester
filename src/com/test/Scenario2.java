@@ -26,7 +26,7 @@ import com.pages.YourCartPage;
 public class Scenario2 extends BaseClass {
 
 	@Test
-	public void Scenario_2() {
+	public void Scenario_2() throws InterruptedException {
 		
 		LoginPage login = PageFactory.initElements(driver, LoginPage.class);
 		SelectProductPage selectproduct = PageFactory.initElements(driver, SelectProductPage.class);

@@ -3,7 +3,7 @@
 	<listeners>
 		<listener class-name="Utility.ListenerTest" />
 	</listeners>
-   <test name="MyTests" >
+   <test name="Selenium_Assignment" >
        <classes> 
            <class name="com.test.Scenario1" />
            <class name="com.test.Scenario2" />

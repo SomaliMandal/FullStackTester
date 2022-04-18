@@ -36,7 +36,7 @@ public class BaseClass {
 
 	@BeforeClass
 	public void setUp() throws IOException {
-		System.out.println(url+browser);
+		System.out.println("URL : "+url+" ,Browser : "+browser);
 		driver = DriverFactory.startApp(driver,url,browser);
 	}
 

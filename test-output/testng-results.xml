@@ -1,40 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" ignored="2" total="5" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-04-12T10:17:29 IST" name="Default suite" finished-at="2022-04-12T10:17:40 IST" duration-ms="11268">
+  <suite name="Test-Suite" duration-ms="50113" started-at="2022-04-18T14:47:26 IST" finished-at="2022-04-18T14:48:16 IST">
     <groups>
     </groups>
-    <test started-at="2022-04-12T10:17:29 IST" name="Default test" finished-at="2022-04-12T10:17:40 IST" duration-ms="11268">
+    <test name="Selenium_Assignment" duration-ms="50113" started-at="2022-04-18T14:47:26 IST" finished-at="2022-04-18T14:48:16 IST">
       <class name="com.test.Scenario3">
-        <test-method is-config="true" signature="setUpEnv()[pri:0, instance:com.test.Scenario3@53fdffa1]" started-at="2022-04-12T10:17:29 IST" name="setUpEnv" finished-at="2022-04-12T10:17:29 IST" duration-ms="9" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpEnv -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.Scenario3@53fdffa1]" started-at="2022-04-12T10:17:29 IST" name="setUp" finished-at="2022-04-12T10:17:32 IST" duration-ms="2682" status="PASS">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.Scenario3@77f99a05]" name="setUp" is-config="true" duration-ms="3318" started-at="2022-04-18T14:47:55 IST" finished-at="2022-04-18T14:47:59 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Scenario_3()[pri:0, instance:com.test.Scenario3@53fdffa1]" started-at="2022-04-12T10:17:32 IST" name="Scenario_3" finished-at="2022-04-12T10:17:40 IST" duration-ms="8203" status="PASS">
+        <test-method status="PASS" signature="Scenario_3()[pri:0, instance:com.test.Scenario3@77f99a05]" name="Scenario_3" duration-ms="15931" started-at="2022-04-18T14:47:59 IST" finished-at="2022-04-18T14:48:15 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Scenario_3 -->
-        <test-method is-config="true" signature="FailedTestCases(org.testng.ITestResult)[pri:0, instance:com.test.Scenario3@53fdffa1]" started-at="2022-04-12T10:17:40 IST" name="FailedTestCases" finished-at="2022-04-12T10:17:40 IST" duration-ms="3" status="PASS">
+        <test-method status="PASS" signature="FailedTestCases(org.testng.ITestResult)[pri:0, instance:com.test.Scenario3@77f99a05]" name="FailedTestCases" is-config="true" duration-ms="0" started-at="2022-04-18T14:48:15 IST" finished-at="2022-04-18T14:48:15 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Scenario_3 status=SUCCESS method=Scenario3.Scenario_3()[pri:0, instance:com.test.Scenario3@53fdffa1] output={null}]]]>
+                <![CDATA[[TestResult name=Scenario_3 status=SUCCESS method=Scenario3.Scenario_3()[pri:0, instance:com.test.Scenario3@77f99a05] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FailedTestCases -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.Scenario3@53fdffa1]" started-at="2022-04-12T10:17:40 IST" name="tearDown" finished-at="2022-04-12T10:17:40 IST" duration-ms="344" status="PASS">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.Scenario3@77f99a05]" name="tearDown" is-config="true" duration-ms="1345" started-at="2022-04-18T14:48:15 IST" finished-at="2022-04-18T14:48:16 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.test.Scenario3 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="com.test.Scenario1">
+        <test-method status="PASS" signature="setUpEnv()[pri:0, instance:com.test.Scenario1@371a67ec]" name="setUpEnv" is-config="true" duration-ms="14" started-at="2022-04-18T14:47:26 IST" finished-at="2022-04-18T14:47:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpEnv -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.Scenario1@371a67ec]" name="setUp" is-config="true" duration-ms="5589" started-at="2022-04-18T14:47:26 IST" finished-at="2022-04-18T14:47:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Scenario_1()[pri:0, instance:com.test.Scenario1@371a67ec]" name="Scenario_1" duration-ms="5141" started-at="2022-04-18T14:47:32 IST" finished-at="2022-04-18T14:47:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scenario_1 -->
+        <test-method status="PASS" signature="FailedTestCases(org.testng.ITestResult)[pri:0, instance:com.test.Scenario1@371a67ec]" name="FailedTestCases" is-config="true" duration-ms="3" started-at="2022-04-18T14:47:37 IST" finished-at="2022-04-18T14:47:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Scenario_1 status=SUCCESS method=Scenario1.Scenario_1()[pri:0, instance:com.test.Scenario1@371a67ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FailedTestCases -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.Scenario1@371a67ec]" name="tearDown" is-config="true" duration-ms="1368" started-at="2022-04-18T14:47:37 IST" finished-at="2022-04-18T14:47:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.Scenario1 -->
+      <class name="com.test.Scenario2">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.Scenario2@a38d7a3]" name="setUp" is-config="true" duration-ms="3016" started-at="2022-04-18T14:47:38 IST" finished-at="2022-04-18T14:47:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Scenario_2()[pri:0, instance:com.test.Scenario2@a38d7a3]" name="Scenario_2" duration-ms="10235" started-at="2022-04-18T14:47:41 IST" finished-at="2022-04-18T14:47:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scenario_2 -->
+        <test-method status="PASS" signature="FailedTestCases(org.testng.ITestResult)[pri:0, instance:com.test.Scenario2@a38d7a3]" name="FailedTestCases" is-config="true" duration-ms="1" started-at="2022-04-18T14:47:51 IST" finished-at="2022-04-18T14:47:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Scenario_2 status=SUCCESS method=Scenario2.Scenario_2()[pri:0, instance:com.test.Scenario2@a38d7a3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FailedTestCases -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.Scenario2@a38d7a3]" name="tearDown" is-config="true" duration-ms="4105" started-at="2022-04-18T14:47:51 IST" finished-at="2022-04-18T14:47:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.Scenario2 -->
+    </test> <!-- Selenium_Assignment -->
+  </suite> <!-- Test-Suite -->
 </testng-results>

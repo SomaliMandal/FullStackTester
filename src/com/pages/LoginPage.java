@@ -28,10 +28,11 @@ public class LoginPage {
 	public WebElement Login_btn;
 	
 
-	public void login_user(Map<String,String> userDetails) {
+	public void login_user(Map<String,String> userDetails) throws InterruptedException {
 		
 		Username.sendKeys(userDetails.get("UserName"));
 		Password.sendKeys(userDetails.get("Password"));
+		Thread.sleep(1000);
 		Login_btn.click();
 	}
 
