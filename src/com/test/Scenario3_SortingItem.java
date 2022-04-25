@@ -22,7 +22,7 @@ import com.pages.LoginPage;
 import com.pages.SelectProductPage;
 import com.pages.YourCartPage;
 
-public class Scenario3 extends BaseClass {
+public class Scenario3_SortingItem extends BaseClass {
 
 	@Test
 	public void Scenario_3() throws InterruptedException {

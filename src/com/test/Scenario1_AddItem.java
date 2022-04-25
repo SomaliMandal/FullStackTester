@@ -20,7 +20,7 @@ import com.pages.SelectProductPage;
 import com.pages.YourCartPage;
 
 
-public class Scenario1 extends BaseClass {
+public class Scenario1_AddItem extends BaseClass {
 
 	@Test
 	public void Scenario_1() throws InterruptedException {

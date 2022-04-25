@@ -5,9 +5,9 @@
 	</listeners>
    <test name="Selenium_Assignment" >
        <classes> 
-           <class name="com.test.Scenario1" />
-           <class name="com.test.Scenario2" />
-           <class name="com.test.Scenario3" />
+           <class name="com.test.Scenario1_AddItem" />
+           <class name="com.test.Scenario2_AddRemoveItem" />
+           <class name="com.test.Scenario3_SortingItem" />
        </classes>
    </test>
  </suite>

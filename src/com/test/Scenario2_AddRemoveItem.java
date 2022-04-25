@@ -23,7 +23,7 @@ import com.pages.SelectProductPage;
 import com.pages.YourCartPage;
 
 
-public class Scenario2 extends BaseClass {
+public class Scenario2_AddRemoveItem extends BaseClass {
 
 	@Test
 	public void Scenario_2() throws InterruptedException {
